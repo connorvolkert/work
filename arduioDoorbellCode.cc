@@ -140,7 +140,7 @@ void loop() {
       }
     }
   }
-}
+
 
 if (digitalRead(b2) == HIGH) {
   for(int i=0;i<sizeof(NOTES2);i++){
@@ -155,9 +155,9 @@ if (digitalRead(b2) == HIGH) {
       delay(TIME2[i]);
       noTone(buzz);
       delay(100);
+      }
     }
   }
- }
 
 if (_____) {
   for(int i=0;i<sizeof(NOTES3);i++){
@@ -172,9 +172,9 @@ if (_____) {
       delay(TIME3[i]);
       noTone(buzz);
       delay(100);
+      }
     }
   }
- }
 
 if (_____) {
   for(int i=0;i<sizeof(NOTES4);i++){
@@ -189,9 +189,9 @@ if (_____) {
       delay(TIME4[i]);
       noTone(buzz);
       delay(100);
+      }
     }
   }
- }
 
 if (_____) {
   for(int i=0;i<sizeof(NOTES5);i++){
@@ -206,7 +206,7 @@ if (_____) {
       delay(TIME5[i]);
       noTone(buzz);
       delay(100);
+      }
     }
   }
- }
 }
